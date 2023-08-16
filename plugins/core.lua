@@ -1,5 +1,3 @@
-local art = require("plugins.utils.art")
-
 return {
   -- customize alpha options
   {
