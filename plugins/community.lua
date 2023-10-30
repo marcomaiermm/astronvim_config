@@ -40,7 +40,8 @@ return {
   },  -- git
   { import = "astrocommunity.git.diffview-nvim" },
   -- packs
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.godot" },
 }
