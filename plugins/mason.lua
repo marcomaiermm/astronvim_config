@@ -12,7 +12,8 @@ return {
         "gopls",
         "pyright",
         "tsserver",
-        "tailwindcss"
+        "tailwindcss",
+        "templ",
       })
     end,
   },

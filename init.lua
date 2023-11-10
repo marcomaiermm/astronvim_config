@@ -51,7 +51,26 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
+      "htmx",
     },
+    config = {
+      tailwindcss = {
+        filetypes = { "html", "css", "scss", "javascript", "javascriptreact", "typescript", "typescriptreact", "svelte", "vue", "templ" },
+        init_options = {
+          userLanguages = {
+            templ = "html",
+          }
+        }
+      },
+      htmx = {
+        filetypes = { "html", "templ"},
+        init_options = {
+          userLanguages = {
+            templ = "html",
+          }
+        }
+      }
+    }
   },
 
   -- Configure require("lazy").setup() options
@@ -82,4 +101,6 @@ return {
     --   },
     -- }
   end,
+
+
 }

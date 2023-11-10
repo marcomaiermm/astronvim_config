@@ -44,4 +44,6 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.astro" },
   { import = "astrocommunity.pack.godot" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.docker" },
 }
